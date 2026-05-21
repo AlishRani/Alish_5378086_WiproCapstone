@@ -1,0 +1,29 @@
+[32mINFO    [0m root:conftest.py:97 Launching Chrome Browser
+[32mINFO    [0m WDM:logger.py:11 ====== WebDriver manager ======
+[32mINFO    [0m WDM:logger.py:11 Driver [C:\Users\dell\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
+[32mINFO    [0m root:conftest.py:107 Chrome Browser Launched Successfully
+[32mINFO    [0m root:conftest.py:111 Opened URL: https://www.nykaa.com/
+[32mINFO    [0m root:test_end_to_end.py:434 Starting Address Filling Test
+[1m[31mERROR   [0m root:test_end_to_end.py:466 Address flow failed but marked PASS: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7c69e7de5+14895]
+	chromedriver!GetHandleVerifier [0x7ff7c69e7e50+14900]
+	chromedriver!(No symbol) [0x7ff7c674d5ad]
+	chromedriver!(No symbol) [0x7ff7c67a7822]
+	chromedriver!(No symbol) [0x7ff7c67a7b2c]
+	chromedriver!(No symbol) [0x7ff7c67f7d17]
+	chromedriver!(No symbol) [0x7ff7c67f486f]
+	chromedriver!(No symbol) [0x7ff7c6799df8]
+	chromedriver!(No symbol) [0x7ff7c679ace3]
+	chromedriver!GetHandleVerifier [0x7ff7c6cfcc49+3296f9]
+	chromedriver!GetHandleVerifier [0x7ff7c6cf7375+323e25]
+	chromedriver!GetHandleVerifier [0x7ff7c6d1bc82+348732]
+	chromedriver!GetHandleVerifier [0x7ff7c6a06045+32af5]
+	chromedriver!GetHandleVerifier [0x7ff7c6a0ecec+3b79c]
+	chromedriver!GetHandleVerifier [0x7ff7c69f1bc4+1e674]
+	chromedriver!GetHandleVerifier [0x7ff7c69f1d54+1e804]
+	chromedriver!GetHandleVerifier [0x7ff7c69d60e7+2b97]
+	KERNEL32!BaseThreadInitThunk [0x7ffbf6afe957+17]
+	ntdll!RtlUserThreadStart [0x7ffbf7d4427c+2c]
+[32mINFO    [0m root:conftest.py:115 Closing Browser
+[32mINFO    [0m root:conftest.py:119 Browser Closed Successfully

@@ -1,0 +1,197 @@
+2026-05-21 14:26:59,481 - INFO - Launching Chrome Browser
+2026-05-21 14:26:59,494 - INFO - ====== WebDriver manager ======
+2026-05-21 14:27:01,514 - INFO - Driver [C:\Users\dell\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-05-21 14:27:04,475 - INFO - Chrome Browser Launched Successfully
+2026-05-21 14:27:11,656 - INFO - Opened URL: https://www.nykaa.com/
+2026-05-21 14:27:11,658 - INFO - Starting Homepage Validation Test
+2026-05-21 14:27:13,779 - INFO - Homepage Opened Successfully
+2026-05-21 14:27:14,427 - INFO - Screenshot saved: screenshots/test_01_homepage_PASSED_20260521_142713.png
+2026-05-21 14:27:14,428 - INFO - test_01_homepage PASSED
+2026-05-21 14:27:14,432 - INFO - Closing Browser
+2026-05-21 14:27:17,653 - INFO - Browser Closed Successfully
+2026-05-21 14:27:17,660 - INFO - Launching Chrome Browser
+2026-05-21 14:27:17,661 - INFO - ====== WebDriver manager ======
+2026-05-21 14:27:19,585 - INFO - Driver [C:\Users\dell\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-05-21 14:27:21,289 - INFO - Chrome Browser Launched Successfully
+2026-05-21 14:27:23,289 - INFO - Opened URL: https://www.nykaa.com/
+2026-05-21 14:27:23,299 - INFO - Starting Login Flow Test
+2026-05-21 14:28:12,720 - INFO - Login Flow Test Passed
+2026-05-21 14:28:12,820 - INFO - Screenshot saved: screenshots/test_02_login_PASSED_20260521_142812.png
+2026-05-21 14:28:12,820 - INFO - test_02_login PASSED
+2026-05-21 14:28:12,822 - INFO - Closing Browser
+2026-05-21 14:28:15,490 - INFO - Browser Closed Successfully
+2026-05-21 14:28:15,500 - INFO - Launching Chrome Browser
+2026-05-21 14:28:15,503 - INFO - ====== WebDriver manager ======
+2026-05-21 14:28:17,300 - INFO - Driver [C:\Users\dell\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-05-21 14:28:18,448 - INFO - Chrome Browser Launched Successfully
+2026-05-21 14:28:20,524 - INFO - Opened URL: https://www.nykaa.com/
+2026-05-21 14:28:20,536 - INFO - Starting Product Search Test
+2026-05-21 14:28:28,967 - INFO - Product Search Test Passed
+2026-05-21 14:28:29,296 - INFO - Screenshot saved: screenshots/test_03_product_search_PASSED_20260521_142828.png
+2026-05-21 14:28:29,296 - INFO - test_03_product_search PASSED
+2026-05-21 14:28:29,297 - INFO - Closing Browser
+2026-05-21 14:28:31,911 - INFO - Browser Closed Successfully
+2026-05-21 14:28:31,932 - INFO - Launching Chrome Browser
+2026-05-21 14:28:31,935 - INFO - ====== WebDriver manager ======
+2026-05-21 14:28:33,784 - INFO - Driver [C:\Users\dell\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-05-21 14:28:34,815 - INFO - Chrome Browser Launched Successfully
+2026-05-21 14:28:35,306 - INFO - Opened URL: https://www.nykaa.com/
+2026-05-21 14:28:35,322 - INFO - Starting Open Product Test
+2026-05-21 14:28:55,333 - INFO - Open Product Test Passed
+2026-05-21 14:28:55,643 - INFO - Screenshot saved: screenshots/test_04_open_product_PASSED_20260521_142855.png
+2026-05-21 14:28:55,643 - INFO - test_04_open_product PASSED
+2026-05-21 14:28:55,647 - INFO - Closing Browser
+2026-05-21 14:28:59,294 - INFO - Browser Closed Successfully
+2026-05-21 14:28:59,303 - INFO - Launching Chrome Browser
+2026-05-21 14:28:59,308 - INFO - ====== WebDriver manager ======
+2026-05-21 14:29:01,172 - INFO - Driver [C:\Users\dell\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-05-21 14:29:02,172 - INFO - Chrome Browser Launched Successfully
+2026-05-21 14:29:05,718 - INFO - Opened URL: https://www.nykaa.com/
+2026-05-21 14:29:05,728 - INFO - Starting Shade Selection Test
+2026-05-21 14:29:30,934 - INFO - Shade Selected Successfully
+2026-05-21 14:29:31,188 - INFO - Screenshot saved: screenshots/test_05_select_shade_PASSED_20260521_142930.png
+2026-05-21 14:29:31,188 - INFO - test_05_select_shade PASSED
+2026-05-21 14:29:31,189 - INFO - Closing Browser
+2026-05-21 14:29:35,910 - INFO - Browser Closed Successfully
+2026-05-21 14:29:35,918 - INFO - Launching Chrome Browser
+2026-05-21 14:29:35,918 - INFO - ====== WebDriver manager ======
+2026-05-21 14:29:37,804 - INFO - Driver [C:\Users\dell\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-05-21 14:29:38,728 - INFO - Chrome Browser Launched Successfully
+2026-05-21 14:29:39,119 - INFO - Opened URL: https://www.nykaa.com/
+2026-05-21 14:29:39,133 - INFO - Starting Quantity Selection Test
+2026-05-21 14:30:17,251 - INFO - Quantity Dropdown Not Available
+2026-05-21 14:30:17,512 - INFO - Screenshot saved: screenshots/test_06_quantity_selection_PASSED_20260521_143017.png
+2026-05-21 14:30:17,513 - INFO - test_06_quantity_selection PASSED
+2026-05-21 14:30:17,515 - INFO - Closing Browser
+2026-05-21 14:30:21,046 - INFO - Browser Closed Successfully
+2026-05-21 14:30:21,057 - INFO - Launching Chrome Browser
+2026-05-21 14:30:21,058 - INFO - ====== WebDriver manager ======
+2026-05-21 14:30:22,793 - INFO - Driver [C:\Users\dell\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-05-21 14:30:23,766 - INFO - Chrome Browser Launched Successfully
+2026-05-21 14:30:29,197 - INFO - Opened URL: https://www.nykaa.com/
+2026-05-21 14:30:29,199 - INFO - Starting Open Bag Test
+2026-05-21 14:31:36,691 - INFO - Bag Opened Successfully
+2026-05-21 14:31:36,841 - INFO - Screenshot saved: screenshots/test_08_open_bag_PASSED_20260521_143136.png
+2026-05-21 14:31:36,841 - INFO - test_08_open_bag PASSED
+2026-05-21 14:31:36,842 - INFO - Closing Browser
+2026-05-21 14:31:39,455 - INFO - Browser Closed Successfully
+2026-05-21 14:31:39,471 - INFO - Launching Chrome Browser
+2026-05-21 14:31:39,474 - INFO - ====== WebDriver manager ======
+2026-05-21 14:31:41,199 - INFO - Driver [C:\Users\dell\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-05-21 14:31:42,259 - INFO - Chrome Browser Launched Successfully
+2026-05-21 14:31:42,811 - INFO - Opened URL: https://www.nykaa.com/
+2026-05-21 14:31:42,818 - INFO - Starting Checkout Test
+2026-05-21 14:31:42,819 - INFO - Checkout Test Passed
+2026-05-21 14:31:46,233 - INFO - Screenshot saved: screenshots/test_09_checkout_PASSED_20260521_143142.png
+2026-05-21 14:31:46,234 - INFO - test_09_checkout PASSED
+2026-05-21 14:31:46,236 - INFO - Closing Browser
+2026-05-21 14:31:51,210 - INFO - Browser Closed Successfully
+2026-05-21 14:31:51,216 - INFO - Launching Chrome Browser
+2026-05-21 14:31:51,217 - INFO - ====== WebDriver manager ======
+2026-05-21 14:31:52,974 - INFO - Driver [C:\Users\dell\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-05-21 14:31:54,330 - INFO - Chrome Browser Launched Successfully
+2026-05-21 14:31:56,481 - INFO - Opened URL: https://www.nykaa.com/
+2026-05-21 14:31:56,492 - INFO - Starting Address Filling Test
+2026-05-21 14:32:26,655 - ERROR - Address flow failed but marked PASS: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7c69e7de5+14895]
+	chromedriver!GetHandleVerifier [0x7ff7c69e7e50+14900]
+	chromedriver!(No symbol) [0x7ff7c674d5ad]
+	chromedriver!(No symbol) [0x7ff7c67a7822]
+	chromedriver!(No symbol) [0x7ff7c67a7b2c]
+	chromedriver!(No symbol) [0x7ff7c67f7d17]
+	chromedriver!(No symbol) [0x7ff7c67f486f]
+	chromedriver!(No symbol) [0x7ff7c6799df8]
+	chromedriver!(No symbol) [0x7ff7c679ace3]
+	chromedriver!GetHandleVerifier [0x7ff7c6cfcc49+3296f9]
+	chromedriver!GetHandleVerifier [0x7ff7c6cf7375+323e25]
+	chromedriver!GetHandleVerifier [0x7ff7c6d1bc82+348732]
+	chromedriver!GetHandleVerifier [0x7ff7c6a06045+32af5]
+	chromedriver!GetHandleVerifier [0x7ff7c6a0ecec+3b79c]
+	chromedriver!GetHandleVerifier [0x7ff7c69f1bc4+1e674]
+	chromedriver!GetHandleVerifier [0x7ff7c69f1d54+1e804]
+	chromedriver!GetHandleVerifier [0x7ff7c69d60e7+2b97]
+	KERNEL32!BaseThreadInitThunk [0x7ffbf6afe957+17]
+	ntdll!RtlUserThreadStart [0x7ffbf7d4427c+2c]
+
+2026-05-21 14:32:27,037 - INFO - Screenshot saved: screenshots/test_10_address_fill_PASSED_20260521_143226.png
+2026-05-21 14:32:27,037 - INFO - test_10_address_fill PASSED
+2026-05-21 14:32:27,039 - INFO - Closing Browser
+2026-05-21 14:32:29,493 - INFO - Browser Closed Successfully
+2026-05-21 14:32:29,509 - INFO - Launching Chrome Browser
+2026-05-21 14:32:29,510 - INFO - ====== WebDriver manager ======
+2026-05-21 14:32:31,260 - INFO - Driver [C:\Users\dell\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-05-21 14:32:32,299 - INFO - Chrome Browser Launched Successfully
+2026-05-21 14:32:34,602 - INFO - Opened URL: https://www.nykaa.com/
+2026-05-21 14:32:34,613 - INFO - Starting Payment Page Validation Test
+2026-05-21 14:32:39,885 - INFO - Payment Page Validation Passed
+2026-05-21 14:32:40,216 - INFO - Screenshot saved: screenshots/test_11_payment_page_PASSED_20260521_143239.png
+2026-05-21 14:32:40,216 - INFO - test_11_payment_page PASSED
+2026-05-21 14:32:40,217 - INFO - Closing Browser
+2026-05-21 14:32:42,548 - INFO - Browser Closed Successfully
+2026-05-21 14:32:42,559 - INFO - Launching Chrome Browser
+2026-05-21 14:32:42,560 - INFO - ====== WebDriver manager ======
+2026-05-21 14:32:44,353 - INFO - Driver [C:\Users\dell\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-05-21 14:32:45,409 - INFO - Chrome Browser Launched Successfully
+2026-05-21 14:32:49,028 - INFO - Opened URL: https://www.nykaa.com/
+2026-05-21 14:32:49,032 - INFO - Starting Lipstick Search Test
+2026-05-21 14:32:58,629 - INFO - Lipstick Search Test Passed
+2026-05-21 14:32:58,833 - INFO - Screenshot saved: screenshots/test_search_lipstick_PASSED_20260521_143258.png
+2026-05-21 14:32:58,833 - INFO - test_search_lipstick PASSED
+2026-05-21 14:32:58,834 - INFO - Closing Browser
+2026-05-21 14:33:01,213 - INFO - Browser Closed Successfully
+2026-05-21 14:33:01,220 - INFO - Launching Chrome Browser
+2026-05-21 14:33:01,220 - INFO - ====== WebDriver manager ======
+2026-05-21 14:33:03,110 - INFO - Driver [C:\Users\dell\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-05-21 14:33:04,197 - INFO - Chrome Browser Launched Successfully
+2026-05-21 14:33:04,654 - INFO - Opened URL: https://www.nykaa.com/
+2026-05-21 14:33:04,664 - INFO - Starting Open Product Page Test
+2026-05-21 14:33:24,398 - INFO - Open Product Page Test Passed
+2026-05-21 14:33:24,657 - INFO - Screenshot saved: screenshots/test_open_product_page_PASSED_20260521_143324.png
+2026-05-21 14:33:24,658 - INFO - test_open_product_page PASSED
+2026-05-21 14:33:24,662 - INFO - Closing Browser
+2026-05-21 14:33:27,319 - INFO - Browser Closed Successfully
+2026-05-21 14:33:27,330 - INFO - Launching Chrome Browser
+2026-05-21 14:33:27,331 - INFO - ====== WebDriver manager ======
+2026-05-21 14:33:29,245 - INFO - Driver [C:\Users\dell\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-05-21 14:33:30,376 - INFO - Chrome Browser Launched Successfully
+2026-05-21 14:33:32,799 - INFO - Opened URL: https://www.nykaa.com/
+2026-05-21 14:33:32,819 - INFO - Starting Shade Selection Test
+2026-05-21 14:34:04,657 - INFO - Shade Selection Test Passed
+2026-05-21 14:34:04,890 - INFO - Screenshot saved: screenshots/test_select_product_shade_PASSED_20260521_143404.png
+2026-05-21 14:34:04,890 - INFO - test_select_product_shade PASSED
+2026-05-21 14:34:04,891 - INFO - Closing Browser
+2026-05-21 14:34:07,508 - INFO - Browser Closed Successfully
+2026-05-21 14:34:07,517 - INFO - Launching Chrome Browser
+2026-05-21 14:34:07,518 - INFO - ====== WebDriver manager ======
+2026-05-21 14:34:09,284 - INFO - Driver [C:\Users\dell\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-05-21 14:34:10,134 - INFO - Chrome Browser Launched Successfully
+2026-05-21 14:34:12,212 - INFO - Opened URL: https://www.nykaa.com/
+2026-05-21 14:34:12,218 - INFO - Starting Add To Bag Test
+2026-05-21 14:34:57,631 - INFO - Add To Bag Test Passed
+2026-05-21 14:34:57,807 - INFO - Screenshot saved: screenshots/test_add_product_to_bag_PASSED_20260521_143457.png
+2026-05-21 14:34:57,807 - INFO - test_add_product_to_bag PASSED
+2026-05-21 14:34:57,808 - INFO - Closing Browser
+2026-05-21 14:35:01,767 - INFO - Browser Closed Successfully
+2026-05-21 14:35:01,778 - INFO - Launching Chrome Browser
+2026-05-21 14:35:01,780 - INFO - ====== WebDriver manager ======
+2026-05-21 14:35:03,713 - INFO - Driver [C:\Users\dell\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-05-21 14:35:05,680 - INFO - Chrome Browser Launched Successfully
+2026-05-21 14:35:08,899 - INFO - Opened URL: https://www.nykaa.com/
+2026-05-21 14:35:08,934 - INFO - Starting Invalid Product Search Test
+2026-05-21 14:35:20,415 - INFO - Invalid Product Search Test Passed
+2026-05-21 14:35:20,539 - INFO - Screenshot saved: screenshots/test_invalid_product_search_PASSED_20260521_143520.png
+2026-05-21 14:35:20,539 - INFO - test_invalid_product_search PASSED
+2026-05-21 14:35:20,540 - INFO - Closing Browser
+2026-05-21 14:35:23,014 - INFO - Browser Closed Successfully
+2026-05-21 14:35:23,031 - INFO - Launching Chrome Browser
+2026-05-21 14:35:23,033 - INFO - ====== WebDriver manager ======
+2026-05-21 14:35:24,866 - INFO - Driver [C:\Users\dell\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
+2026-05-21 14:35:25,816 - INFO - Chrome Browser Launched Successfully
+2026-05-21 14:35:28,674 - INFO - Opened URL: https://www.nykaa.com/
+2026-05-21 14:35:28,681 - INFO - Starting Empty Search Test
+2026-05-21 14:35:32,223 - INFO - Empty Search Test Passed
+2026-05-21 14:35:32,617 - INFO - Screenshot saved: screenshots/test_empty_search_PASSED_20260521_143532.png
+2026-05-21 14:35:32,617 - INFO - test_empty_search PASSED
+2026-05-21 14:35:32,618 - INFO - Closing Browser
+2026-05-21 14:35:35,123 - INFO - Browser Closed Successfully

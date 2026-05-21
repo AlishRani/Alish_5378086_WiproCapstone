@@ -1,0 +1,9 @@
+[32mINFO    [0m root:conftest.py:97 Launching Chrome Browser
+[32mINFO    [0m WDM:logger.py:11 ====== WebDriver manager ======
+[32mINFO    [0m WDM:logger.py:11 Driver [C:\Users\dell\.wdm\drivers\chromedriver\win64\148.0.7778.178\chromedriver-win64/chromedriver.exe] found in cache by browser version
+[32mINFO    [0m root:conftest.py:107 Chrome Browser Launched Successfully
+[32mINFO    [0m root:conftest.py:111 Opened URL: https://www.nykaa.com/
+[32mINFO    [0m root:test_makeup_page.py:90 Starting Shade Selection Test
+[32mINFO    [0m root:test_makeup_page.py:122 Shade Selection Test Passed
+[32mINFO    [0m root:conftest.py:115 Closing Browser
+[32mINFO    [0m root:conftest.py:119 Browser Closed Successfully
