@@ -1,0 +1,9 @@
+2026-05-23 00:20:27,327 | INFO    | >>> 9: Add product to bag
+2026-05-23 00:20:29,429 | INFO    |   ACTION: Navigated to lipstick listing
+2026-05-23 00:20:31,069 | INFO    |   ACTION: Clicked first product
+2026-05-23 00:20:31,082 | INFO    |   ACTION: Switched to PDP tab
+2026-05-23 00:20:32,772 | INFO    |   ACTION: Product: 'Charlotte Tilbury Matte Revolution - Pillow Talk Medium
+(3.5g)' - Price ₹3650.
+2026-05-23 00:20:32,772 | INFO    |   ASSERT: Product name and price are visible
+2026-05-23 00:20:33,142 | INFO    |   ACTION: Clicked Add to Bag
+2026-05-23 00:20:35,502 | INFO    | Step 9 PASSED

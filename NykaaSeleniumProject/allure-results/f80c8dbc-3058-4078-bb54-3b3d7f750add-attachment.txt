@@ -1,0 +1,7 @@
+INFO     nykaa_e2e_20260523_001738:utils.py:54 >>> 8: Verify product price on PDP
+INFO     nykaa_e2e_20260523_001738:utils.py:60   ACTION: Navigated to lipstick listing
+INFO     nykaa_e2e_20260523_001738:utils.py:60   ACTION: Clicked first product
+INFO     nykaa_e2e_20260523_001738:utils.py:60   ACTION: Switched to PDP tab
+INFO     nykaa_e2e_20260523_001738:utils.py:60   ACTION: Product price: 'Price ₹3650.'
+INFO     nykaa_e2e_20260523_001738:utils.py:57   ASSERT: Product price is not empty
+INFO     nykaa_e2e_20260523_001738:utils.py:51 Step 8 PASSED

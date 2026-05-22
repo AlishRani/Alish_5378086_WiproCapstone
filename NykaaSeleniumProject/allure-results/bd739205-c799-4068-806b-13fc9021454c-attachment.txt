@@ -1,0 +1,31 @@
+2026-05-23 00:17:49,106 | INFO    | >>> 1: Navigate to lipstick listing via Makeup menu
+2026-05-23 00:17:50,853 | INFO    |   ACTION: Hovered Makeup and clicked Lipstick
+2026-05-23 00:17:52,283 | INFO    |   ACTION: Listing heading: 'Buy Lipstick Online (712)'
+2026-05-23 00:17:52,882 | INFO    |   ASSERT: Heading contains 'Lipstick'
+2026-05-23 00:17:52,882 | INFO    | Step 1 PASSED
+2026-05-23 00:18:03,773 | INFO    | >>> 2: Verify products displayed on listing
+2026-05-23 00:18:05,451 | INFO    |   ACTION: Navigated to lipstick listing
+2026-05-23 00:18:06,792 | INFO    |   ACTION: Product count: 20
+2026-05-23 00:18:07,521 | INFO    |   ASSERT: Product count > 0
+2026-05-23 00:18:07,522 | INFO    | Step 2 PASSED
+2026-05-23 00:18:12,342 | INFO    | >>> 3: Filter products by brand Lakme
+2026-05-23 00:18:14,110 | INFO    |   ACTION: Navigated to lipstick listing
+2026-05-23 00:18:33,217 | INFO    |   ACTION: Applied Lakme brand filter
+2026-05-23 00:18:36,811 | INFO    |   ASSERT: URL contains 'brand' param: https://www.nykaa.com/makeup/lips/lipstick/c/249?brand=Lakme&root=nav_4
+2026-05-23 00:18:36,814 | INFO    | Step 3 PASSED
+2026-05-23 00:18:41,651 | INFO    | >>> 4: Filter products by brand Maybelline
+2026-05-23 00:18:43,485 | INFO    |   ACTION: Navigated to lipstick listing
+2026-05-23 00:19:00,991 | INFO    |   ACTION: Applied Maybelline brand filter
+2026-05-23 00:19:04,670 | INFO    |   ASSERT: URL contains 'brand' param: https://www.nykaa.com/makeup/lips/lipstick/c/249?brand=Maybelline&root=nav_4
+2026-05-23 00:19:04,675 | INFO    | Step 4 PASSED
+2026-05-23 00:19:09,543 | INFO    | >>> 5: Sort products by Price Low to High
+2026-05-23 00:19:11,302 | INFO    |   ACTION: Navigated to lipstick listing
+2026-05-23 00:19:29,323 | INFO    |   ACTION: Selected Low to High sort
+2026-05-23 00:19:32,899 | INFO    |   ACTION: Page heading after sort: 'Buy Lipstick Online (711)'
+2026-05-23 00:19:32,899 | INFO    |   ASSERT: Page heading contains 'Lipstick'
+2026-05-23 00:19:32,899 | INFO    | Step 5 PASSED
+2026-05-23 00:19:37,726 | INFO    | >>> 6: Verify sort parameter in URL
+2026-05-23 00:19:39,511 | INFO    |   ACTION: Navigated to lipstick listing
+2026-05-23 00:19:57,336 | INFO    |   ACTION: Selected Low to High sort
+2026-05-23 00:20:00,824 | INFO    |   ASSERT: URL has sort param: https://www.nykaa.com/makeup/lips/lipstick/c/249?sort=price_asc
+2026-05-23 00:20:00,824 | INFO    | Step 6 PASSED

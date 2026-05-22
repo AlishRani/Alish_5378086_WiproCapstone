@@ -1,0 +1,5 @@
+2026-05-23 00:18:41,651 | INFO    | >>> 4: Filter products by brand Maybelline
+2026-05-23 00:18:43,485 | INFO    |   ACTION: Navigated to lipstick listing
+2026-05-23 00:19:00,991 | INFO    |   ACTION: Applied Maybelline brand filter
+2026-05-23 00:19:04,670 | INFO    |   ASSERT: URL contains 'brand' param: https://www.nykaa.com/makeup/lips/lipstick/c/249?brand=Maybelline&root=nav_4
+2026-05-23 00:19:04,675 | INFO    | Step 4 PASSED

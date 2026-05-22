@@ -1,0 +1,4 @@
+INFO     nykaa_e2e_20260523_001738:utils.py:54 >>> 11: Search for 'lipstick'
+INFO     nykaa_e2e_20260523_001738:utils.py:60   ACTION: Submitted search query 'lipstick'
+INFO     nykaa_e2e_20260523_001738:utils.py:57   ASSERT: Search results URL: https://www.nykaa.com/makeup/lips/c/15?search_redirection=True
+INFO     nykaa_e2e_20260523_001738:utils.py:51 Step 11 PASSED

@@ -1,0 +1,9 @@
+INFO     nykaa_e2e_20260523_001738:utils.py:54 >>> 9: Add product to bag
+INFO     nykaa_e2e_20260523_001738:utils.py:60   ACTION: Navigated to lipstick listing
+INFO     nykaa_e2e_20260523_001738:utils.py:60   ACTION: Clicked first product
+INFO     nykaa_e2e_20260523_001738:utils.py:60   ACTION: Switched to PDP tab
+INFO     nykaa_e2e_20260523_001738:utils.py:60   ACTION: Product: 'Charlotte Tilbury Matte Revolution - Pillow Talk Medium
+(3.5g)' - Price ₹3650.
+INFO     nykaa_e2e_20260523_001738:utils.py:57   ASSERT: Product name and price are visible
+INFO     nykaa_e2e_20260523_001738:utils.py:60   ACTION: Clicked Add to Bag
+INFO     nykaa_e2e_20260523_001738:utils.py:51 Step 9 PASSED

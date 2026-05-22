@@ -1,0 +1,6 @@
+2026-05-23 00:19:09,543 | INFO    | >>> 5: Sort products by Price Low to High
+2026-05-23 00:19:11,302 | INFO    |   ACTION: Navigated to lipstick listing
+2026-05-23 00:19:29,323 | INFO    |   ACTION: Selected Low to High sort
+2026-05-23 00:19:32,899 | INFO    |   ACTION: Page heading after sort: 'Buy Lipstick Online (711)'
+2026-05-23 00:19:32,899 | INFO    |   ASSERT: Page heading contains 'Lipstick'
+2026-05-23 00:19:32,899 | INFO    | Step 5 PASSED

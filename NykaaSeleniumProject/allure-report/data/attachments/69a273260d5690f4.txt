@@ -1,0 +1,5 @@
+INFO     nykaa_e2e_20260523_001738:utils.py:54 >>> 13: Verify search results rendered
+INFO     nykaa_e2e_20260523_001738:utils.py:60   ACTION: Submitted search query 'lipstick'
+INFO     nykaa_e2e_20260523_001738:utils.py:57   ASSERT: Search results page body is visible
+INFO     nykaa_e2e_20260523_001738:utils.py:57   ASSERT: URL contains 'search': https://www.nykaa.com/makeup/lips/c/15?search_redirection=True
+INFO     nykaa_e2e_20260523_001738:utils.py:51 Step 13 PASSED

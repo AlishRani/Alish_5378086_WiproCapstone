@@ -1,0 +1,8 @@
+2026-05-23 00:20:40,637 | INFO    | >>> 10: Navigate to bag page
+2026-05-23 00:20:42,378 | INFO    |   ACTION: Navigated to lipstick listing
+2026-05-23 00:20:44,233 | INFO    |   ACTION: Clicked first product
+2026-05-23 00:20:44,256 | INFO    |   ACTION: Switched to PDP tab
+2026-05-23 00:20:46,020 | INFO    |   ACTION: Clicked Add to Bag
+2026-05-23 00:21:02,357 | INFO    |   ACTION: Navigated to bag page
+2026-05-23 00:21:04,483 | INFO    |   ASSERT: Bag page URL: https://www.nykaa.com/checkout/cart
+2026-05-23 00:21:04,488 | INFO    | Step 10 PASSED

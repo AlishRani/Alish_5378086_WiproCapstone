@@ -1,0 +1,4 @@
+2026-05-23 00:21:09,614 | INFO    | >>> 11: Search for 'lipstick'
+2026-05-23 00:21:11,525 | INFO    |   ACTION: Submitted search query 'lipstick'
+2026-05-23 00:21:15,120 | INFO    |   ASSERT: Search results URL: https://www.nykaa.com/makeup/lips/c/15?search_redirection=True
+2026-05-23 00:21:15,536 | INFO    | Step 11 PASSED

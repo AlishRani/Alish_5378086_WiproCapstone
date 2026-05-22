@@ -1,0 +1,5 @@
+INFO     nykaa_e2e_20260523_001738:utils.py:54 >>> 12: Search special characters
+INFO     nykaa_e2e_20260523_001738:utils.py:60   ACTION: Submitted search query '!@#$%'
+INFO     nykaa_e2e_20260523_001738:utils.py:60   ACTION: Page body loaded
+INFO     nykaa_e2e_20260523_001738:utils.py:57   ASSERT: Page title has no error: 'Buy Cosmetics Products & Beauty Products Online in India at Best Price | Nykaa'
+INFO     nykaa_e2e_20260523_001738:utils.py:51 Step 12 PASSED

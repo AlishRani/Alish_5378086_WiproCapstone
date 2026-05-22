@@ -1,0 +1,5 @@
+INFO     nykaa_e2e_20260523_001738:utils.py:54 >>> Search: Special characters do not crash
+INFO     nykaa_e2e_20260523_001738:utils.py:60   ACTION: Submitted search query '!@#$%'
+INFO     nykaa_e2e_20260523_001738:utils.py:60   ACTION: Page body loaded
+INFO     nykaa_e2e_20260523_001738:utils.py:57   ASSERT: URL: https://www.nykaa.com/search/result/?q=!%40%23%24%25&root=search&searchType=Manual&sourcepage=home, Title: 'Buy Cosmetics Products & Beauty Products Online in India at Best Price | Nykaa'
+INFO     nykaa_e2e_20260523_001738:utils.py:51 Search test PASSED

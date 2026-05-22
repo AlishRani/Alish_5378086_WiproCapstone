@@ -1,0 +1,5 @@
+2026-05-23 00:21:26,786 | INFO    | >>> 13: Verify search results rendered
+2026-05-23 00:21:28,622 | INFO    |   ACTION: Submitted search query 'lipstick'
+2026-05-23 00:21:32,415 | INFO    |   ASSERT: Search results page body is visible
+2026-05-23 00:21:32,588 | INFO    |   ASSERT: URL contains 'search': https://www.nykaa.com/makeup/lips/c/15?search_redirection=True
+2026-05-23 00:21:32,609 | INFO    | Step 13 PASSED

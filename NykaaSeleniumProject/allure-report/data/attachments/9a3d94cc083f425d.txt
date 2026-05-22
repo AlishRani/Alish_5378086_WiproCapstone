@@ -1,0 +1,7 @@
+2026-05-23 00:20:16,659 | INFO    | >>> 8: Verify product price on PDP
+2026-05-23 00:20:18,402 | INFO    |   ACTION: Navigated to lipstick listing
+2026-05-23 00:20:20,308 | INFO    |   ACTION: Clicked first product
+2026-05-23 00:20:20,322 | INFO    |   ACTION: Switched to PDP tab
+2026-05-23 00:20:21,676 | INFO    |   ACTION: Product price: 'Price ₹3650.'
+2026-05-23 00:20:22,310 | INFO    |   ASSERT: Product price is not empty
+2026-05-23 00:20:22,310 | INFO    | Step 8 PASSED

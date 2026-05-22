@@ -1,0 +1,7 @@
+2026-05-23 00:22:15,692 | INFO    | >>> Sort: Sort by Price Low to High
+2026-05-23 00:22:17,406 | INFO    |   ACTION: Navigated to lipstick listing
+2026-05-23 00:22:18,601 | INFO    |   ASSERT: Not already sorted by price
+2026-05-23 00:22:35,491 | INFO    |   ACTION: Selected Low to High sort
+2026-05-23 00:22:39,039 | INFO    |   ACTION: Heading after sort: 'Buy Lipstick Online (711)'
+2026-05-23 00:22:39,039 | INFO    |   ASSERT: Still on lipstick page
+2026-05-23 00:22:39,040 | INFO    | Sort test PASSED

@@ -1,0 +1,5 @@
+2026-05-23 00:18:03,773 | INFO    | >>> 2: Verify products displayed on listing
+2026-05-23 00:18:05,451 | INFO    |   ACTION: Navigated to lipstick listing
+2026-05-23 00:18:06,792 | INFO    |   ACTION: Product count: 20
+2026-05-23 00:18:07,521 | INFO    |   ASSERT: Product count > 0
+2026-05-23 00:18:07,522 | INFO    | Step 2 PASSED

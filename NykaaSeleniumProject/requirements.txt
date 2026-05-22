@@ -1,5 +1,4 @@
-selenium
-pytest
-pytest-html
-allure-pytest
-webdriver-manager
+selenium==4.28.1
+webdriver-manager==4.0.2
+pytest==8.3.4
+allure-pytest==2.16.0

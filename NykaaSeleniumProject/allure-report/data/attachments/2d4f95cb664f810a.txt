@@ -1,0 +1,5 @@
+2026-05-23 00:21:20,479 | INFO    | >>> 12: Search special characters
+2026-05-23 00:21:21,388 | INFO    |   ACTION: Submitted search query '!@#$%'
+2026-05-23 00:21:21,403 | INFO    |   ACTION: Page body loaded
+2026-05-23 00:21:21,743 | INFO    |   ASSERT: Page title has no error: 'Buy Cosmetics Products & Beauty Products Online in India at Best Price | Nykaa'
+2026-05-23 00:21:21,746 | INFO    | Step 12 PASSED

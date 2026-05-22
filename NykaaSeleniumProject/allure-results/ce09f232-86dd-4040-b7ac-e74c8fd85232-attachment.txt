@@ -1,0 +1,8 @@
+2026-05-23 00:20:06,061 | INFO    | >>> 7: Verify product name on PDP
+2026-05-23 00:20:07,706 | INFO    |   ACTION: Navigated to lipstick listing
+2026-05-23 00:20:09,545 | INFO    |   ACTION: Clicked first product
+2026-05-23 00:20:09,556 | INFO    |   ACTION: Switched to PDP tab
+2026-05-23 00:20:10,915 | INFO    |   ACTION: Product name: 'Charlotte Tilbury Matte Revolution - Pillow Talk Medium
+(3.5g)'
+2026-05-23 00:20:11,576 | INFO    |   ASSERT: Product name is not empty
+2026-05-23 00:20:11,576 | INFO    | Step 7 PASSED

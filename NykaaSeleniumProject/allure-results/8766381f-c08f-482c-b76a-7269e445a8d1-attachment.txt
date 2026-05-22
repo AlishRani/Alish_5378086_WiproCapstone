@@ -1,0 +1,5 @@
+2026-05-23 00:19:37,726 | INFO    | >>> 6: Verify sort parameter in URL
+2026-05-23 00:19:39,511 | INFO    |   ACTION: Navigated to lipstick listing
+2026-05-23 00:19:57,336 | INFO    |   ACTION: Selected Low to High sort
+2026-05-23 00:20:00,824 | INFO    |   ASSERT: URL has sort param: https://www.nykaa.com/makeup/lips/lipstick/c/249?sort=price_asc
+2026-05-23 00:20:00,824 | INFO    | Step 6 PASSED

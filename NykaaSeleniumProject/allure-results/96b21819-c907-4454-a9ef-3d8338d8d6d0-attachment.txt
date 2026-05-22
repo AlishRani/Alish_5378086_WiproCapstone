@@ -1,0 +1,5 @@
+2026-05-23 00:22:54,655 | INFO    | >>> Search: Special characters do not crash
+2026-05-23 00:22:55,811 | INFO    |   ACTION: Submitted search query '!@#$%'
+2026-05-23 00:22:55,825 | INFO    |   ACTION: Page body loaded
+2026-05-23 00:22:56,035 | INFO    |   ASSERT: URL: https://www.nykaa.com/search/result/?q=!%40%23%24%25&root=search&searchType=Manual&sourcepage=home, Title: 'Buy Cosmetics Products & Beauty Products Online in India at Best Price | Nykaa'
+2026-05-23 00:22:56,041 | INFO    | Search test PASSED

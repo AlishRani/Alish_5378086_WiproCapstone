@@ -1,0 +1,5 @@
+2026-05-23 00:18:12,342 | INFO    | >>> 3: Filter products by brand Lakme
+2026-05-23 00:18:14,110 | INFO    |   ACTION: Navigated to lipstick listing
+2026-05-23 00:18:33,217 | INFO    |   ACTION: Applied Lakme brand filter
+2026-05-23 00:18:36,811 | INFO    |   ASSERT: URL contains 'brand' param: https://www.nykaa.com/makeup/lips/lipstick/c/249?brand=Lakme&root=nav_4
+2026-05-23 00:18:36,814 | INFO    | Step 3 PASSED

@@ -1,169 +1,48 @@
-'''import pytest
-import os
-from datetime import datetime
-
-from selenium import webdriver
-from selenium.webdriver.chrome.service import Service
-from selenium.webdriver.chrome.options import Options
-from webdriver_manager.chrome import ChromeDriverManager
-
-from config import BASE_URL
-
-# ADD THIS
-from log_utils import logger
-
-
-# Browser Setup
-@pytest.fixture
-def setup():
-
-    chrome_options = Options()
-    chrome_options.add_argument("--start-maximized")
-
-    driver = webdriver.Chrome(
-        service=Service(ChromeDriverManager().install()),
-        options=chrome_options
-    )
-
-    logger.info("Launching Browser")
-
-    driver.get(BASE_URL)
-
-    logger.info(f"Opening URL: {BASE_URL}")
-
-    yield driver
-
-    logger.info("Closing Browser")
-
-    driver.quit()
-
-
-# Screenshot Capture for Pass and Fail
-@pytest.hookimpl(hookwrapper=True)
-def pytest_runtest_makereport(item):
-
-    outcome = yield
-    rep = outcome.get_result()
-
-    # Capture screenshot after test execution
-    if rep.when == "call":
-
-        driver = item.funcargs["setup"]
-
-        # Create screenshots folder
-        os.makedirs("screenshots", exist_ok=True)
-
-        # Time stamp
-        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-
-        # Test Status
-        status = "PASSED" if rep.passed else "FAILED"
-
-        # Screenshot Name
-        screenshot_name = (
-            f"screenshots/{item.name}_{status}_{timestamp}.png"
-        )
-
-        # Save Screenshot
-        driver.save_screenshot(screenshot_name)
-
-        logger.info(f"Screenshot saved: {screenshot_name}")
-
-        print(f"\nScreenshot saved: {screenshot_name}")'''
-
-
+import allure
 import pytest
-import os
-from datetime import datetime
-
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 from webdriver_manager.chrome import ChromeDriverManager
-
-from config import BASE_URL
-
-# LOGGER IMPORT
-from utilities.log_utils import logger
+from utils import take_screenshot
 
 
-# ======================================================
-# Browser Setup
-# ======================================================
-
-@pytest.fixture
-def setup():
-
-    logger.info("Launching Chrome Browser")
-
-    chrome_options = Options()
-    chrome_options.add_argument("--start-maximized")
-
-    driver = webdriver.Chrome(
-        service=Service(ChromeDriverManager().install()),
-        options=chrome_options
-    )
-
-    logger.info("Chrome Browser Launched Successfully")
-
-    driver.get(BASE_URL)
-
-    logger.info(f"Opened URL: {BASE_URL}")
-
+@pytest.fixture(scope="function")
+def driver():
+    options = Options()
+    options.add_argument("--start-maximized")
+    options.add_argument("--disable-notifications")
+    service = Service(ChromeDriverManager().install())
+    driver = webdriver.Chrome(service=service, options=options)
+    driver.set_page_load_timeout(5)
+    try:
+        driver.get("https://www.nykaa.com")
+    except Exception:
+        driver.execute_script("window.stop();")
+    WebDriverWait(driver, 10).until(
+        EC.element_to_be_clickable((By.CSS_SELECTOR, "a.logo"))
+    ).click()
     yield driver
-
-    logger.info("Closing Browser")
-
     driver.quit()
 
-    logger.info("Browser Closed Successfully")
 
-
-# ======================================================
-# Screenshot Capture for Pass and Fail
-# ======================================================
-
-@pytest.hookimpl(hookwrapper=True)
-def pytest_runtest_makereport(item):
-
+@pytest.hookimpl(tryfirst=True, hookwrapper=True)
+def pytest_runtest_makereport(item, call):
     outcome = yield
-    rep = outcome.get_result()
-
-    # Capture Screenshot After Test Execution
-    if rep.when == "call":
-
-        driver = item.funcargs["setup"]
-
-        # Create Screenshot Folder
-        os.makedirs("screenshots", exist_ok=True)
-
-        # Timestamp
-        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-
-        # Test Status
-        status = "PASSED" if rep.passed else "FAILED"
-
-        # Screenshot Name
-        screenshot_name = (
-            f"screenshots/{item.name}_{status}_{timestamp}.png"
-        )
-
-        # Save Screenshot
-        driver.save_screenshot(screenshot_name)
-
-        print(f"\nScreenshot saved: {screenshot_name}")
-
-        logger.info(f"Screenshot saved: {screenshot_name}")
-
-        # Logging Test Result
-        if rep.passed:
-
-            logger.info(f"{item.name} PASSED")
-
-        elif rep.failed:
-
-            logger.error(f"{item.name} FAILED")
-
-        elif rep.skipped:
-
-            logger.warning(f"{item.name} SKIPPED")
+    report = outcome.get_result()
+    if report.when == "call":
+        from pathlib import Path
+        log_dir = Path(__file__).parent / "logs"
+        if log_dir.exists():
+            log_files = sorted(log_dir.glob("*.log"), key=lambda f: f.stat().st_mtime, reverse=True)
+            if log_files:
+                latest = log_files[0]
+                with open(latest) as f:
+                    allure.attach(f.read(), name="test_log", attachment_type=allure.attachment_type.TEXT)
+        if report.failed:
+            driver = item.funcargs.get("driver")
+            if driver:
+                take_screenshot(driver, f"{item.name}_failed")

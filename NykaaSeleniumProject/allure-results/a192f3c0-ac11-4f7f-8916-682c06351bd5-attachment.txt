@@ -1,0 +1,10 @@
+2026-05-23 00:22:43,742 | INFO    | >>> PDP: Verify product name and price
+2026-05-23 00:22:45,377 | INFO    |   ACTION: Navigated to lipstick listing
+2026-05-23 00:22:47,097 | INFO    |   ACTION: Clicked first product
+2026-05-23 00:22:47,111 | INFO    |   ACTION: Switched to PDP tab
+2026-05-23 00:22:48,902 | INFO    |   ACTION: Product name: 'Charlotte Tilbury Matte Revolution - Pillow Talk Medium
+(3.5g)'
+2026-05-23 00:22:48,902 | INFO    |   ASSERT: Product name is not empty
+2026-05-23 00:22:49,024 | INFO    |   ACTION: Product price: 'Price ₹3650.'
+2026-05-23 00:22:49,572 | INFO    |   ASSERT: Product price is not empty
+2026-05-23 00:22:49,572 | INFO    | PDP test PASSED

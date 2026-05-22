@@ -1,0 +1,7 @@
+INFO     nykaa_e2e_20260523_001738:utils.py:54 >>> Sort: Sort by Price Low to High
+INFO     nykaa_e2e_20260523_001738:utils.py:60   ACTION: Navigated to lipstick listing
+INFO     nykaa_e2e_20260523_001738:utils.py:57   ASSERT: Not already sorted by price
+INFO     nykaa_e2e_20260523_001738:utils.py:60   ACTION: Selected Low to High sort
+INFO     nykaa_e2e_20260523_001738:utils.py:60   ACTION: Heading after sort: 'Buy Lipstick Online (711)'
+INFO     nykaa_e2e_20260523_001738:utils.py:57   ASSERT: Still on lipstick page
+INFO     nykaa_e2e_20260523_001738:utils.py:51 Sort test PASSED

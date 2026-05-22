@@ -1,0 +1,5 @@
+INFO     nykaa_e2e_20260523_001738:utils.py:54 >>> 4: Filter products by brand Maybelline
+INFO     nykaa_e2e_20260523_001738:utils.py:60   ACTION: Navigated to lipstick listing
+INFO     nykaa_e2e_20260523_001738:utils.py:60   ACTION: Applied Maybelline brand filter
+INFO     nykaa_e2e_20260523_001738:utils.py:57   ASSERT: URL contains 'brand' param: https://www.nykaa.com/makeup/lips/lipstick/c/249?brand=Maybelline&root=nav_4
+INFO     nykaa_e2e_20260523_001738:utils.py:51 Step 4 PASSED

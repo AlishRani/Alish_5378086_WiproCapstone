@@ -1,0 +1,8 @@
+INFO     nykaa_e2e_20260523_001738:utils.py:54 >>> 10: Navigate to bag page
+INFO     nykaa_e2e_20260523_001738:utils.py:60   ACTION: Navigated to lipstick listing
+INFO     nykaa_e2e_20260523_001738:utils.py:60   ACTION: Clicked first product
+INFO     nykaa_e2e_20260523_001738:utils.py:60   ACTION: Switched to PDP tab
+INFO     nykaa_e2e_20260523_001738:utils.py:60   ACTION: Clicked Add to Bag
+INFO     nykaa_e2e_20260523_001738:utils.py:60   ACTION: Navigated to bag page
+INFO     nykaa_e2e_20260523_001738:utils.py:57   ASSERT: Bag page URL: https://www.nykaa.com/checkout/cart
+INFO     nykaa_e2e_20260523_001738:utils.py:51 Step 10 PASSED

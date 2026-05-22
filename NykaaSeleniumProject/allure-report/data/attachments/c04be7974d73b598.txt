@@ -1,0 +1,5 @@
+INFO     nykaa_e2e_20260523_001738:utils.py:54 >>> 1: Navigate to lipstick listing via Makeup menu
+INFO     nykaa_e2e_20260523_001738:utils.py:60   ACTION: Hovered Makeup and clicked Lipstick
+INFO     nykaa_e2e_20260523_001738:utils.py:60   ACTION: Listing heading: 'Buy Lipstick Online (712)'
+INFO     nykaa_e2e_20260523_001738:utils.py:57   ASSERT: Heading contains 'Lipstick'
+INFO     nykaa_e2e_20260523_001738:utils.py:51 Step 1 PASSED

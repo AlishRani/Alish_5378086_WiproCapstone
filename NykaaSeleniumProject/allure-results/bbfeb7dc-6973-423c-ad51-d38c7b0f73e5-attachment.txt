@@ -1,0 +1,5 @@
+INFO     nykaa_e2e_20260523_001738:utils.py:54 >>> Nav: Hover Makeup and click Lipstick
+INFO     nykaa_e2e_20260523_001738:utils.py:60   ACTION: Hovered Makeup and clicked Lipstick
+INFO     nykaa_e2e_20260523_001738:utils.py:60   ACTION: Listing heading: 'Buy Lipstick Online (712)'
+INFO     nykaa_e2e_20260523_001738:utils.py:57   ASSERT: Heading 'Buy Lipstick Online (712)' contains 'Lipstick'
+INFO     nykaa_e2e_20260523_001738:utils.py:51 Nav test PASSED

@@ -1,0 +1,10 @@
+INFO     nykaa_e2e_20260523_001738:utils.py:54 >>> PDP: Verify product name and price
+INFO     nykaa_e2e_20260523_001738:utils.py:60   ACTION: Navigated to lipstick listing
+INFO     nykaa_e2e_20260523_001738:utils.py:60   ACTION: Clicked first product
+INFO     nykaa_e2e_20260523_001738:utils.py:60   ACTION: Switched to PDP tab
+INFO     nykaa_e2e_20260523_001738:utils.py:60   ACTION: Product name: 'Charlotte Tilbury Matte Revolution - Pillow Talk Medium
+(3.5g)'
+INFO     nykaa_e2e_20260523_001738:utils.py:57   ASSERT: Product name is not empty
+INFO     nykaa_e2e_20260523_001738:utils.py:60   ACTION: Product price: 'Price ₹3650.'
+INFO     nykaa_e2e_20260523_001738:utils.py:57   ASSERT: Product price is not empty
+INFO     nykaa_e2e_20260523_001738:utils.py:51 PDP test PASSED
