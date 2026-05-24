@@ -1,0 +1,5 @@
+selenium==4.18.1
+behave==1.2.6
+behave-html-formatter==0.9.10
+allure-behave==2.13.5
+webdriver-manager==4.0.1

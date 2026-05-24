@@ -1,0 +1,154 @@
+2026-05-24 10:57:12 | INFO     | ============================================================
+2026-05-24 10:57:12 | INFO     |    Nykaa BDD Test Suite Started
+2026-05-24 10:57:12 | INFO     | ============================================================
+2026-05-24 10:57:12 | INFO     | 
+[SCENARIO START] TC-E2E-01 Homepage successfully load hoti hai
+2026-05-24 10:57:19 | INFO     | [GIVEN] Chrome browser ready hai
+2026-05-24 10:57:19 | INFO     | [WHEN] Navigate to: https://www.nykaa.com/
+2026-05-24 10:58:11 | INFO     | [THEN] 'nykaa' URL/Title mein mila ✓
+2026-05-24 10:58:12 | INFO     | [THEN] Page real hai, 404 nahi ✓
+2026-05-24 10:58:13 | INFO     | [SCREENSHOT] C:\Nykaa_Selenium_project\NykaaBDDProject\features\steps\..\..\screenshots\TC_E2E_01_homepage_20260524_105812.png
+2026-05-24 10:58:13 | INFO     | [THEN] Screenshot saved: C:\Nykaa_Selenium_project\NykaaBDDProject\features\steps\..\..\screenshots\TC_E2E_01_homepage_20260524_105812.png
+2026-05-24 10:58:13 | INFO     | [SCENARIO PASSED] TC-E2E-01 Homepage successfully load hoti hai
+2026-05-24 10:58:15 | INFO     | 
+[SCENARIO START] TC-E2E-02 Lip Makeup Category page load hoti hai
+2026-05-24 10:58:24 | INFO     | [GIVEN] Chrome browser ready hai
+2026-05-24 10:58:24 | INFO     | [NAV] https://www.nykaa.com/makeup/lips/c/15
+2026-05-24 10:59:44 | INFO     | [WHEN] Lip Makeup category page opened
+2026-05-24 10:59:45 | INFO     | [THEN] Page successfully load hua ✓
+2026-05-24 10:59:45 | INFO     | [THEN] Lip/Makeup content mila ✓
+2026-05-24 10:59:45 | INFO     | [SCREENSHOT] C:\Nykaa_Selenium_project\NykaaBDDProject\features\steps\..\..\screenshots\TC_E2E_02_lip_makeup_category_20260524_105945.png
+2026-05-24 10:59:45 | INFO     | [THEN] Screenshot saved: C:\Nykaa_Selenium_project\NykaaBDDProject\features\steps\..\..\screenshots\TC_E2E_02_lip_makeup_category_20260524_105945.png
+2026-05-24 10:59:45 | INFO     | [SCENARIO PASSED] TC-E2E-02 Lip Makeup Category page load hoti hai
+2026-05-24 10:59:48 | INFO     | 
+[SCENARIO START] TC-E2E-03 Lipstick Sub-Category page load hoti hai
+2026-05-24 10:59:53 | INFO     | [GIVEN] Chrome browser ready hai
+2026-05-24 10:59:53 | INFO     | [NAV] https://www.nykaa.com/makeup/lips/lipstick/c/249
+2026-05-24 11:01:16 | INFO     | [WHEN] Lipstick sub-category page opened
+2026-05-24 11:01:17 | INFO     | [THEN] Page successfully load hua ✓
+2026-05-24 11:01:17 | INFO     | [THEN] Lipstick content mila ✓
+2026-05-24 11:01:18 | INFO     | [SCREENSHOT] C:\Nykaa_Selenium_project\NykaaBDDProject\features\steps\..\..\screenshots\TC_E2E_03_lipstick_subcategory_20260524_110117.png
+2026-05-24 11:01:18 | INFO     | [THEN] Screenshot saved: C:\Nykaa_Selenium_project\NykaaBDDProject\features\steps\..\..\screenshots\TC_E2E_03_lipstick_subcategory_20260524_110117.png
+2026-05-24 11:01:18 | INFO     | [SCENARIO PASSED] TC-E2E-03 Lipstick Sub-Category page load hoti hai
+2026-05-24 11:01:20 | INFO     | 
+[SCENARIO START] TC-E2E-04 Lipstick Search Results page load hoti hai
+2026-05-24 11:01:26 | INFO     | [GIVEN] Chrome browser ready hai
+2026-05-24 11:01:46 | INFO     | [NAV] https://www.nykaa.com/search/result/?q=lipstick&root=search&searchType=Manual&sourcepage=home
+2026-05-24 11:03:07 | INFO     | [WHEN] Searched for: lipstick
+2026-05-24 11:03:07 | INFO     | [THEN] Search results page load hua ✓
+2026-05-24 11:03:07 | INFO     | [THEN] Lipstick results mile ✓
+2026-05-24 11:03:08 | INFO     | [SCREENSHOT] C:\Nykaa_Selenium_project\NykaaBDDProject\features\steps\..\..\screenshots\TC_E2E_04_search_results_20260524_110307.png
+2026-05-24 11:03:08 | INFO     | [THEN] Screenshot saved: C:\Nykaa_Selenium_project\NykaaBDDProject\features\steps\..\..\screenshots\TC_E2E_04_search_results_20260524_110307.png
+2026-05-24 11:03:08 | INFO     | [SCENARIO PASSED] TC-E2E-04 Lipstick Search Results page load hoti hai
+2026-05-24 11:03:10 | INFO     | 
+[SCENARIO START] TC-E2E-05 Lipstick Product Detail page load hoti hai
+2026-05-24 11:03:16 | INFO     | [GIVEN] Chrome browser ready hai
+2026-05-24 11:03:16 | INFO     | [NAV] https://www.nykaa.com/lakme-forever-matte-liquid-lip-colour/p/623306
+2026-05-24 11:04:35 | INFO     | [WHEN] Lakme lipstick product page opened
+2026-05-24 11:04:35 | INFO     | [THEN] Product page successfully load hua ✓
+2026-05-24 11:04:36 | INFO     | [THEN] Product content mila ✓
+2026-05-24 11:04:36 | INFO     | [SCREENSHOT] C:\Nykaa_Selenium_project\NykaaBDDProject\features\steps\..\..\screenshots\TC_E2E_05_product_detail_20260524_110436.png
+2026-05-24 11:04:36 | INFO     | [THEN] Screenshot saved: C:\Nykaa_Selenium_project\NykaaBDDProject\features\steps\..\..\screenshots\TC_E2E_05_product_detail_20260524_110436.png
+2026-05-24 11:04:36 | INFO     | [SCENARIO PASSED] TC-E2E-05 Lipstick Product Detail page load hoti hai
+2026-05-24 11:04:38 | INFO     | 
+[SCENARIO START] TC-E2E-06 Add to Bag button product page par dikh raha hai
+2026-05-24 11:05:01 | INFO     | [GIVEN] Chrome browser ready hai
+2026-05-24 11:05:01 | INFO     | [NAV] https://www.nykaa.com/lakme-forever-matte-liquid-lip-colour/p/623306
+2026-05-24 11:06:20 | INFO     | [WHEN] Lakme lipstick product page opened
+2026-05-24 11:06:20 | INFO     | [THEN] Add to Bag button page mein hai ✓
+2026-05-24 11:07:20 | INFO     | [THEN] Add to Bag click attempt (success=False)
+2026-05-24 11:07:21 | INFO     | [SCREENSHOT] C:\Nykaa_Selenium_project\NykaaBDDProject\features\steps\..\..\screenshots\TC_E2E_06_add_to_bag_20260524_110720.png
+2026-05-24 11:07:21 | INFO     | [THEN] Screenshot saved: C:\Nykaa_Selenium_project\NykaaBDDProject\features\steps\..\..\screenshots\TC_E2E_06_add_to_bag_20260524_110720.png
+2026-05-24 11:07:21 | INFO     | [SCENARIO PASSED] TC-E2E-06 Add to Bag button product page par dikh raha hai
+2026-05-24 11:07:23 | INFO     | 
+[SCENARIO START] TC-E2E-07 Shopping Cart page load hoti hai
+2026-05-24 11:07:29 | INFO     | [GIVEN] Chrome browser ready hai
+2026-05-24 11:07:29 | INFO     | [NAV] https://www.nykaa.com/v2/payment/
+2026-05-24 11:08:53 | INFO     | [WHEN] Shopping Cart page opened
+2026-05-24 11:08:53 | INFO     | [THEN] Cart page load hua ✓
+2026-05-24 11:08:55 | INFO     | [THEN] Cart/Payment content mila ✓
+2026-05-24 11:08:56 | INFO     | [SCREENSHOT] C:\Nykaa_Selenium_project\NykaaBDDProject\features\steps\..\..\screenshots\TC_E2E_07_cart_page_20260524_110855.png
+2026-05-24 11:08:56 | INFO     | [THEN] Screenshot saved: C:\Nykaa_Selenium_project\NykaaBDDProject\features\steps\..\..\screenshots\TC_E2E_07_cart_page_20260524_110855.png
+2026-05-24 11:08:56 | INFO     | [SCENARIO PASSED] TC-E2E-07 Shopping Cart page load hoti hai
+2026-05-24 11:08:58 | INFO     | 
+[SCENARIO START] TC-E2E-08 Proceed to Buy se Checkout ya Login page par pahunche
+2026-05-24 11:09:04 | INFO     | [GIVEN] Chrome browser ready hai
+2026-05-24 11:09:04 | INFO     | [NAV] https://www.nykaa.com/v2/payment/
+2026-05-24 11:10:24 | INFO     | [WHEN] Shopping Cart page opened
+2026-05-24 11:11:24 | INFO     | [WHEN] Proceed button nahi mila, /auth pe redirect
+2026-05-24 11:11:29 | INFO     | [WHEN] Proceed to Buy (clicked=False)
+2026-05-24 11:11:29 | INFO     | [THEN] Checkout/Login page reached: https://www.nykaa.com/auth ✓
+2026-05-24 11:11:29 | INFO     | [SCREENSHOT] C:\Nykaa_Selenium_project\NykaaBDDProject\features\steps\..\..\screenshots\TC_E2E_08_proceed_to_checkout_20260524_111129.png
+2026-05-24 11:11:29 | INFO     | [THEN] Screenshot saved: C:\Nykaa_Selenium_project\NykaaBDDProject\features\steps\..\..\screenshots\TC_E2E_08_proceed_to_checkout_20260524_111129.png
+2026-05-24 11:11:29 | INFO     | [SCENARIO PASSED] TC-E2E-08 Proceed to Buy se Checkout ya Login page par pahunche
+2026-05-24 11:11:32 | INFO     | 
+[SCENARIO START] TC-E2E-09 Login Page - Payment Gate final step load hoti hai
+2026-05-24 11:11:37 | INFO     | [GIVEN] Chrome browser ready hai
+2026-05-24 11:11:37 | INFO     | [NAV] https://www.nykaa.com/auth
+2026-05-24 11:12:54 | INFO     | [WHEN] Login page opened
+2026-05-24 11:12:54 | INFO     | [THEN] Login page load hua ✓
+2026-05-24 11:12:54 | INFO     | [THEN] Login form content mila ✓
+2026-05-24 11:12:54 | INFO     | [SCREENSHOT] C:\Nykaa_Selenium_project\NykaaBDDProject\features\steps\..\..\screenshots\TC_E2E_09_login_page_20260524_111254.png
+2026-05-24 11:12:54 | INFO     | [THEN] Screenshot saved: C:\Nykaa_Selenium_project\NykaaBDDProject\features\steps\..\..\screenshots\TC_E2E_09_login_page_20260524_111254.png
+2026-05-24 11:12:54 | INFO     | [SCENARIO PASSED] TC-E2E-09 Login Page - Payment Gate final step load hoti hai
+2026-05-24 11:12:57 | INFO     | 
+[SCENARIO START] TC-MK-01 Lipstick category page successfully load hoti hai
+2026-05-24 11:13:18 | INFO     | [GIVEN] Chrome browser ready hai
+2026-05-24 11:13:18 | INFO     | [NAV] https://www.nykaa.com/makeup/lips/lipstick/c/249
+2026-05-24 11:14:39 | INFO     | [WHEN] Lipstick sub-category page opened
+2026-05-24 11:14:39 | INFO     | [THEN] Page successfully load hua ✓
+2026-05-24 11:14:40 | INFO     | [THEN] Lipstick content mila ✓
+2026-05-24 11:14:40 | INFO     | [SCREENSHOT] C:\Nykaa_Selenium_project\NykaaBDDProject\features\steps\..\..\screenshots\TC_MK_01_lipstick_page_loaded_20260524_111440.png
+2026-05-24 11:14:40 | INFO     | [THEN] Screenshot saved: C:\Nykaa_Selenium_project\NykaaBDDProject\features\steps\..\..\screenshots\TC_MK_01_lipstick_page_loaded_20260524_111440.png
+2026-05-24 11:14:40 | INFO     | [SCENARIO PASSED] TC-MK-01 Lipstick category page successfully load hoti hai
+2026-05-24 11:14:43 | INFO     | 
+[SCENARIO START] TC-MK-02 Lipstick products naam aur price ke saath display hote hain
+2026-05-24 11:14:48 | INFO     | [GIVEN] Chrome browser ready hai
+2026-05-24 11:14:48 | INFO     | [NAV] https://www.nykaa.com/makeup/lips/lipstick/c/249
+2026-05-24 11:16:08 | INFO     | [WHEN] Lipstick sub-category page opened
+2026-05-24 11:16:10 | INFO     | [WHEN] Page scrolled
+2026-05-24 11:16:40 | INFO     | [THEN] Products mile — Cards: 0, Names: 0 ✓
+2026-05-24 11:16:41 | INFO     | [SCREENSHOT] C:\Nykaa_Selenium_project\NykaaBDDProject\features\steps\..\..\screenshots\TC_MK_02_products_displayed_20260524_111640.png
+2026-05-24 11:16:41 | INFO     | [THEN] Screenshot saved: C:\Nykaa_Selenium_project\NykaaBDDProject\features\steps\..\..\screenshots\TC_MK_02_products_displayed_20260524_111640.png
+2026-05-24 11:16:41 | INFO     | [SCENARIO PASSED] TC-MK-02 Lipstick products naam aur price ke saath display hote hain
+2026-05-24 11:16:43 | INFO     | 
+[SCENARIO START] TC-MK-03 Filter aur Sort options lipstick page par visible hain
+2026-05-24 11:16:54 | INFO     | [GIVEN] Chrome browser ready hai
+2026-05-24 11:16:54 | INFO     | [NAV] https://www.nykaa.com/makeup/lips/lipstick/c/249
+2026-05-24 11:18:17 | INFO     | [WHEN] Lipstick sub-category page opened
+2026-05-24 11:18:23 | INFO     | [THEN] Filter/Sort present (filter=True, sort=False, in_src=True) ✓
+2026-05-24 11:18:23 | INFO     | [SCREENSHOT] C:\Nykaa_Selenium_project\NykaaBDDProject\features\steps\..\..\screenshots\TC_MK_03_filter_sort_visible_20260524_111823.png
+2026-05-24 11:18:23 | INFO     | [THEN] Screenshot saved: C:\Nykaa_Selenium_project\NykaaBDDProject\features\steps\..\..\screenshots\TC_MK_03_filter_sort_visible_20260524_111823.png
+2026-05-24 11:18:23 | INFO     | [SCENARIO PASSED] TC-MK-03 Filter aur Sort options lipstick page par visible hain
+2026-05-24 11:18:25 | INFO     | 
+[SCENARIO START] TC-MK-04 Lipstick search karne par relevant results aate hain
+2026-05-24 11:18:31 | INFO     | [GIVEN] Chrome browser ready hai
+2026-05-24 11:18:31 | INFO     | [NAV] https://www.nykaa.com/
+2026-05-24 11:19:53 | INFO     | [GIVEN] User homepage par hai
+2026-05-24 11:20:01 | INFO     | [WHEN] Searched for: lipstick
+2026-05-24 11:20:02 | INFO     | [THEN] Search results page load hua ✓
+2026-05-24 11:20:02 | INFO     | [THEN] Lipstick results mile ✓
+2026-05-24 11:20:03 | INFO     | [SCREENSHOT] C:\Nykaa_Selenium_project\NykaaBDDProject\features\steps\..\..\screenshots\TC_MK_04_search_results_20260524_112002.png
+2026-05-24 11:20:03 | INFO     | [THEN] Screenshot saved: C:\Nykaa_Selenium_project\NykaaBDDProject\features\steps\..\..\screenshots\TC_MK_04_search_results_20260524_112002.png
+2026-05-24 11:20:03 | INFO     | [SCENARIO PASSED] TC-MK-04 Lipstick search karne par relevant results aate hain
+2026-05-24 11:20:05 | INFO     | 
+[SCENARIO START] TC-MK-05 Galat keyword search karne par no results aata hai
+2026-05-24 11:20:27 | INFO     | [GIVEN] Chrome browser ready hai
+2026-05-24 11:20:27 | INFO     | [NAV] https://www.nykaa.com/
+2026-05-24 11:21:50 | INFO     | [GIVEN] User homepage par hai
+2026-05-24 11:21:59 | INFO     | [WHEN] Searched for: xyzabcqwerty12345
+2026-05-24 11:22:19 | INFO     | [THEN] No results check — msg=True, count=0
+2026-05-24 11:22:19 | INFO     | [THEN] Galat keyword par correctly no/empty results ✓
+2026-05-24 11:22:20 | INFO     | [SCREENSHOT] C:\Nykaa_Selenium_project\NykaaBDDProject\features\steps\..\..\screenshots\TC_MK_05_no_results_20260524_112219.png
+2026-05-24 11:22:20 | INFO     | [THEN] Screenshot saved: C:\Nykaa_Selenium_project\NykaaBDDProject\features\steps\..\..\screenshots\TC_MK_05_no_results_20260524_112219.png
+2026-05-24 11:22:20 | INFO     | [SCENARIO PASSED] TC-MK-05 Galat keyword search karne par no results aata hai
+2026-05-24 11:22:22 | INFO     | 
+[SCENARIO START] TC-MK-06 Invalid product URL se error ya redirect hota hai
+2026-05-24 11:22:30 | INFO     | [GIVEN] Chrome browser ready hai
+2026-05-24 11:22:30 | INFO     | [WHEN] Navigate to: https://www.nykaa.com/p/999999999-fake-product-xyz
+2026-05-24 11:23:15 | INFO     | [SCREENSHOT] C:\Nykaa_Selenium_project\NykaaBDDProject\features\screenshots\FAILED_page_ek_valid_product_nahi_dikhana_chahiye_20260524_112315.png
+2026-05-24 11:23:15 | ERROR    | [STEP FAILED] page ek valid product nahi dikhana chahiye
+2026-05-24 11:23:15 | INFO     | [SCENARIO FAILED] TC-MK-06 Invalid product URL se error ya redirect hota hai
+2026-05-24 11:23:18 | INFO     | ============================================================
+2026-05-24 11:23:18 | INFO     |    Nykaa BDD Test Suite Completed
+2026-05-24 11:23:18 | INFO     | ============================================================
