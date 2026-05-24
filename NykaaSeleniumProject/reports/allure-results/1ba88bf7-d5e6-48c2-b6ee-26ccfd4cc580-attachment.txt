@@ -1,0 +1,2 @@
+Yeh E2E funnel ka final step hai.
+Authenticated user yahan se seedha payment/address page pe jata hai.

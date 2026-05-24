@@ -1,0 +1,103 @@
+2026-05-24 15:56:23 | INFO     | nykaa | [SETUP] Launching Chrome for: test_01_homepage
+2026-05-24 15:57:56 | INFO     | nykaa | [TC-E2E-01] URL=https://www.nykaa.com/ | Title=Buy Cosmetics Products & Beauty Products Online in India at Best Price | Nykaa
+2026-05-24 15:57:56 | INFO     | nykaa | [SCREENSHOT] Saved → C:\Nykaa_Selenium_project\NykaaSeleniumProject\screenshots\TC_E2E_01_homepage_20260524_155756.png
+2026-05-24 15:57:56 | INFO     | nykaa | [TC-E2E-01] ✅ PASS – Homepage loaded
+2026-05-24 15:57:57 | INFO     | nykaa | [SCREENSHOT] Saved → C:\Nykaa_Selenium_project\NykaaSeleniumProject\screenshots\test_01_homepage_PASSED_20260524_155756.png
+2026-05-24 15:57:57 | INFO     | nykaa | [TEARDOWN] Closing Chrome for: test_01_homepage
+2026-05-24 15:58:03 | INFO     | nykaa | [SETUP] Launching Chrome for: test_02_lip_makeup_category
+2026-05-24 15:59:30 | INFO     | nykaa | [TC-E2E-02] URL=https://www.nykaa.com/makeup/lips/c/15 | Title=Shop The Best Lip Makeup From Top Rated Brands
+2026-05-24 15:59:31 | INFO     | nykaa | [SCREENSHOT] Saved → C:\Nykaa_Selenium_project\NykaaSeleniumProject\screenshots\TC_E2E_02_lip_makeup_category_20260524_155930.png
+2026-05-24 15:59:31 | INFO     | nykaa | [TC-E2E-02] ✅ PASS – Lip Makeup category loaded
+2026-05-24 15:59:31 | INFO     | nykaa | [SCREENSHOT] Saved → C:\Nykaa_Selenium_project\NykaaSeleniumProject\screenshots\test_02_lip_makeup_category_PASSED_20260524_155931.png
+2026-05-24 15:59:31 | INFO     | nykaa | [TEARDOWN] Closing Chrome for: test_02_lip_makeup_category
+2026-05-24 15:59:37 | INFO     | nykaa | [SETUP] Launching Chrome for: test_03_lipstick_subcategory
+2026-05-24 16:01:03 | INFO     | nykaa | [TC-E2E-03] URL=https://www.nykaa.com/makeup/lips/lipstick/c/249 | Title=Buy Lipstick Online With Discounts Upto 70% And Above In India
+2026-05-24 16:01:04 | INFO     | nykaa | [SCREENSHOT] Saved → C:\Nykaa_Selenium_project\NykaaSeleniumProject\screenshots\TC_E2E_03_lipstick_category_20260524_160104.png
+2026-05-24 16:01:04 | INFO     | nykaa | [TC-E2E-03] ✅ PASS – Lipstick category loaded
+2026-05-24 16:01:04 | INFO     | nykaa | [SCREENSHOT] Saved → C:\Nykaa_Selenium_project\NykaaSeleniumProject\screenshots\test_03_lipstick_subcategory_PASSED_20260524_160104.png
+2026-05-24 16:01:04 | INFO     | nykaa | [TEARDOWN] Closing Chrome for: test_03_lipstick_subcategory
+2026-05-24 16:01:10 | INFO     | nykaa | [SETUP] Launching Chrome for: test_04_lipstick_search_results
+2026-05-24 16:02:37 | INFO     | nykaa | [TC-E2E-04] URL=https://www.nykaa.com/makeup/lips/c/15?search_redirection=True | Title=Shop The Best Lip Makeup From Top Rated Brands
+2026-05-24 16:02:37 | INFO     | nykaa | [SCREENSHOT] Saved → C:\Nykaa_Selenium_project\NykaaSeleniumProject\screenshots\TC_E2E_04_search_results_20260524_160237.png
+2026-05-24 16:02:37 | INFO     | nykaa | [TC-E2E-04] ✅ PASS – Lipstick search results loaded
+2026-05-24 16:02:37 | INFO     | nykaa | [SCREENSHOT] Saved → C:\Nykaa_Selenium_project\NykaaSeleniumProject\screenshots\test_04_lipstick_search_results_PASSED_20260524_160237.png
+2026-05-24 16:02:37 | INFO     | nykaa | [TEARDOWN] Closing Chrome for: test_04_lipstick_search_results
+2026-05-24 16:02:44 | INFO     | nykaa | [SETUP] Launching Chrome for: test_05_product_detail_page
+2026-05-24 16:04:09 | INFO     | nykaa | [TC-E2E-05] URL=https://www.nykaa.com/lakme-forever-matte-liquid-lip-colour/p/623306?skuId=623293 | Title=Buy Lakme Forever Matte Liquid Lip Color, 16Hr Lipstick, Lightweight & Transferproof Online
+2026-05-24 16:04:10 | INFO     | nykaa | [SCREENSHOT] Saved → C:\Nykaa_Selenium_project\NykaaSeleniumProject\screenshots\TC_E2E_05_product_detail_20260524_160410.png
+2026-05-24 16:04:10 | INFO     | nykaa | [TC-E2E-05] ✅ PASS – Product detail page loaded
+2026-05-24 16:04:10 | INFO     | nykaa | [SCREENSHOT] Saved → C:\Nykaa_Selenium_project\NykaaSeleniumProject\screenshots\test_05_product_detail_page_PASSED_20260524_160410.png
+2026-05-24 16:04:10 | INFO     | nykaa | [TEARDOWN] Closing Chrome for: test_05_product_detail_page
+2026-05-24 16:04:17 | INFO     | nykaa | [SETUP] Launching Chrome for: test_06_add_to_bag
+2026-05-24 16:05:41 | INFO     | nykaa | [TC-E2E-06] URL=https://www.nykaa.com/lakme-forever-matte-liquid-lip-colour/p/623306?skuId=623293 | Title=Buy Lakme Forever Matte Liquid Lip Color, 16Hr Lipstick, Lightweight & Transferproof Online
+2026-05-24 16:06:45 | INFO     | nykaa | [TC-E2E-06] Button clicked = False
+2026-05-24 16:06:45 | INFO     | nykaa | [SCREENSHOT] Saved → C:\Nykaa_Selenium_project\NykaaSeleniumProject\screenshots\TC_E2E_06_add_to_bag_20260524_160645.png
+2026-05-24 16:06:45 | INFO     | nykaa | [TC-E2E-06] ✅ PASS – Add to Bag (clicked=False)
+2026-05-24 16:06:45 | INFO     | nykaa | [SCREENSHOT] Saved → C:\Nykaa_Selenium_project\NykaaSeleniumProject\screenshots\test_06_add_to_bag_PASSED_20260524_160645.png
+2026-05-24 16:06:45 | INFO     | nykaa | [TEARDOWN] Closing Chrome for: test_06_add_to_bag
+2026-05-24 16:06:52 | INFO     | nykaa | [SETUP] Launching Chrome for: test_07_shopping_cart
+2026-05-24 16:07:27 | INFO     | nykaa | [SCREENSHOT] Saved → C:\Nykaa_Selenium_project\NykaaSeleniumProject\screenshots\test_07_shopping_cart_FAILED_20260524_160726.png
+2026-05-24 16:07:27 | INFO     | nykaa | [SCREENSHOT] Saved → C:\Nykaa_Selenium_project\NykaaSeleniumProject\screenshots\test_07_shopping_cart_FAILED_20260524_160727.png
+2026-05-24 16:07:27 | INFO     | nykaa | [TEARDOWN] Closing Chrome for: test_07_shopping_cart
+2026-05-24 16:07:30 | INFO     | nykaa | [SETUP] Launching Chrome for: test_08_proceed_to_checkout
+2026-05-24 16:07:46 | INFO     | nykaa | [SCREENSHOT] Saved → C:\Nykaa_Selenium_project\NykaaSeleniumProject\screenshots\test_08_proceed_to_checkout_FAILED_20260524_160745.png
+2026-05-24 16:07:46 | INFO     | nykaa | [SCREENSHOT] Saved → C:\Nykaa_Selenium_project\NykaaSeleniumProject\screenshots\test_08_proceed_to_checkout_FAILED_20260524_160746.png
+2026-05-24 16:07:46 | INFO     | nykaa | [TEARDOWN] Closing Chrome for: test_08_proceed_to_checkout
+2026-05-24 16:07:49 | INFO     | nykaa | [SETUP] Launching Chrome for: test_09_login_page_payment_gate
+2026-05-24 16:09:12 | INFO     | nykaa | [TC-E2E-09] URL=https://www.nykaa.com/auth | Title=
+2026-05-24 16:09:12 | INFO     | nykaa | [SCREENSHOT] Saved → C:\Nykaa_Selenium_project\NykaaSeleniumProject\screenshots\TC_E2E_09_login_page_20260524_160912.png
+2026-05-24 16:09:12 | INFO     | nykaa | [TC-E2E-09] ✅ PASS – Login/Payment gate page loaded
+2026-05-24 16:09:12 | INFO     | nykaa | [SCREENSHOT] Saved → C:\Nykaa_Selenium_project\NykaaSeleniumProject\screenshots\test_09_login_page_payment_gate_PASSED_20260524_160912.png
+2026-05-24 16:09:12 | INFO     | nykaa | [TEARDOWN] Closing Chrome for: test_09_login_page_payment_gate
+2026-05-24 16:09:18 | INFO     | nykaa | [SETUP] Launching Chrome for: test_lipstick_category_page_loads
+2026-05-24 16:09:23 | INFO     | nykaa | [NAV] Opening: https://www.nykaa.com/beauty/lips/lipstick-c-959
+2026-05-24 16:09:50 | INFO     | nykaa | [MAKEUP] Lipstick page opened
+2026-05-24 16:11:39 | INFO     | nykaa | [SCREENSHOT] C:\Nykaa_Selenium_project\NykaaSeleniumProject\screenshots\TC01_lipstick_page_loaded_20260524_161139.png
+2026-05-24 16:11:39 | INFO     | nykaa | [TC01] URL: https://www.nykaa.com/beauty/lips/lipstick-c-959
+2026-05-24 16:11:39 | INFO     | nykaa | [TC01] Title: 404 Not Found | Nykaa
+2026-05-24 16:11:39 | INFO     | nykaa | [TC01] ✅ Lipstick category page loaded successfully
+2026-05-24 16:11:39 | INFO     | nykaa | [SCREENSHOT] Saved → C:\Nykaa_Selenium_project\NykaaSeleniumProject\screenshots\test_lipstick_category_page_loads_PASSED_20260524_161139.png
+2026-05-24 16:11:39 | INFO     | nykaa | [TEARDOWN] Closing Chrome for: test_lipstick_category_page_loads
+2026-05-24 16:11:45 | INFO     | nykaa | [SETUP] Launching Chrome for: test_lipstick_products_displayed
+2026-05-24 16:11:50 | INFO     | nykaa | [NAV] Opening: https://www.nykaa.com/beauty/lips/lipstick-c-959
+2026-05-24 16:12:28 | INFO     | nykaa | [SCREENSHOT] Saved → C:\Nykaa_Selenium_project\NykaaSeleniumProject\screenshots\test_lipstick_products_displayed_FAILED_20260524_161228.png
+2026-05-24 16:12:29 | INFO     | nykaa | [SCREENSHOT] Saved → C:\Nykaa_Selenium_project\NykaaSeleniumProject\screenshots\test_lipstick_products_displayed_FAILED_20260524_161228.png
+2026-05-24 16:12:29 | INFO     | nykaa | [TEARDOWN] Closing Chrome for: test_lipstick_products_displayed
+2026-05-24 16:12:31 | INFO     | nykaa | [SETUP] Launching Chrome for: test_filter_sort_options_visible
+2026-05-24 16:12:37 | INFO     | nykaa | [NAV] Opening: https://www.nykaa.com/beauty/lips/lipstick-c-959
+2026-05-24 16:13:08 | INFO     | nykaa | [SCREENSHOT] Saved → C:\Nykaa_Selenium_project\NykaaSeleniumProject\screenshots\test_filter_sort_options_visible_FAILED_20260524_161307.png
+2026-05-24 16:13:08 | INFO     | nykaa | [SCREENSHOT] Saved → C:\Nykaa_Selenium_project\NykaaSeleniumProject\screenshots\test_filter_sort_options_visible_FAILED_20260524_161308.png
+2026-05-24 16:13:08 | INFO     | nykaa | [TEARDOWN] Closing Chrome for: test_filter_sort_options_visible
+2026-05-24 16:13:10 | INFO     | nykaa | [SETUP] Launching Chrome for: test_search_lipstick_returns_results
+2026-05-24 16:13:15 | INFO     | nykaa | [NAV] Opening: https://www.nykaa.com/
+2026-05-24 16:13:29 | INFO     | nykaa | [HOME] Homepage opened
+2026-05-24 16:15:16 | INFO     | nykaa | [HOME] Searching for: lipstick
+2026-05-24 16:15:46 | INFO     | nykaa | [NAV] Opening: https://www.nykaa.com/search/result/?q=lipstick&root=search&searchType=Manual
+2026-05-24 16:16:49 | INFO     | nykaa | [SCREENSHOT] C:\Nykaa_Selenium_project\NykaaSeleniumProject\screenshots\TC04_search_results_20260524_161649.png
+2026-05-24 16:16:49 | INFO     | nykaa | [TC04] Search result URL: https://www.nykaa.com/makeup/lips/c/15?search_redirection=true
+2026-05-24 16:17:01 | INFO     | nykaa | [MAKEUP] Product cards visible: 0
+2026-05-24 16:17:11 | INFO     | nykaa | [MAKEUP] 0 product names collected
+2026-05-24 16:17:11 | INFO     | nykaa | [TC04] Result cards: 0 | Names: 0
+2026-05-24 16:17:11 | INFO     | nykaa | [TC04] ✅ Search for 'lipstick' returned results successfully
+2026-05-24 16:17:12 | INFO     | nykaa | [SCREENSHOT] Saved → C:\Nykaa_Selenium_project\NykaaSeleniumProject\screenshots\test_search_lipstick_returns_results_PASSED_20260524_161711.png
+2026-05-24 16:17:12 | INFO     | nykaa | [TEARDOWN] Closing Chrome for: test_search_lipstick_returns_results
+2026-05-24 16:17:18 | INFO     | nykaa | [SETUP] Launching Chrome for: test_search_invalid_keyword_no_results
+2026-05-24 16:17:22 | INFO     | nykaa | [NAV] Opening: https://www.nykaa.com/
+2026-05-24 16:17:34 | INFO     | nykaa | [HOME] Homepage opened
+2026-05-24 16:19:22 | INFO     | nykaa | [HOME] Searching for: xyzabcqwerty12345
+2026-05-24 16:20:20 | INFO     | nykaa | [SCREENSHOT] C:\Nykaa_Selenium_project\NykaaSeleniumProject\screenshots\TC05_no_results_search_20260524_162020.png
+2026-05-24 16:20:41 | INFO     | nykaa | [MAKEUP] Product cards visible: 0
+2026-05-24 16:20:41 | INFO     | nykaa | [TC05] no_result_msg=False | count=0
+2026-05-24 16:20:41 | INFO     | nykaa | [TC05] Current URL: https://www.nykaa.com/search/result/?q=xyzabcqwerty12345&root=search&searchType=Manual&sourcepage=home
+2026-05-24 16:20:41 | INFO     | nykaa | [TC05] ✅ Invalid keyword search correctly shows no/empty results
+2026-05-24 16:20:41 | INFO     | nykaa | [SCREENSHOT] Saved → C:\Nykaa_Selenium_project\NykaaSeleniumProject\screenshots\test_search_invalid_keyword_no_results_PASSED_20260524_162041.png
+2026-05-24 16:20:41 | INFO     | nykaa | [TEARDOWN] Closing Chrome for: test_search_invalid_keyword_no_results
+2026-05-24 16:20:48 | INFO     | nykaa | [SETUP] Launching Chrome for: test_invalid_product_url_shows_error
+2026-05-24 16:20:51 | INFO     | nykaa | [NAV] Opening: https://www.nykaa.com/p/999999999-this-product-does-not-exist-xyz-abc
+2026-05-24 16:21:51 | INFO     | nykaa | [SCREENSHOT] C:\Nykaa_Selenium_project\NykaaSeleniumProject\screenshots\TC06_invalid_product_url_20260524_162151.png
+2026-05-24 16:21:51 | INFO     | nykaa | [TC06] URL after invalid navigation: https://www.nykaa.com/p/999999999-this-product-does-not-exist-xyz-abc
+2026-05-24 16:21:51 | INFO     | nykaa | [TC06] Page title: 
+2026-05-24 16:21:51 | INFO     | nykaa | [TC06] redirected=False | 404_src=True | 404_title=False | homepage=False | valid_product=True
+2026-05-24 16:21:51 | INFO     | nykaa | [TC06] ✅ Invalid product URL correctly handled (error/redirect)
+2026-05-24 16:21:51 | INFO     | nykaa | [SCREENSHOT] Saved → C:\Nykaa_Selenium_project\NykaaSeleniumProject\screenshots\test_invalid_product_url_shows_error_PASSED_20260524_162151.png
+2026-05-24 16:21:51 | INFO     | nykaa | [TEARDOWN] Closing Chrome for: test_invalid_product_url_shows_error
