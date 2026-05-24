@@ -1,0 +1,6 @@
+2026-05-24 09:40:02 | INFO     | nykaa | [SETUP] Launching Chrome for: test_01_homepage
+2026-05-24 09:41:26 | INFO     | nykaa | [TC-E2E-01] URL=https://www.nykaa.com/ | Title=Buy Cosmetics Products & Beauty Products Online in India at Best Price | Nykaa
+2026-05-24 09:41:27 | INFO     | nykaa | [SCREENSHOT] Saved → C:\Nykaa_Selenium_project\NykaaSeleniumProject\screenshots\TC_E2E_01_homepage_20260524_094126.png
+2026-05-24 09:41:27 | INFO     | nykaa | [TC-E2E-01] ✅ PASS – Homepage loaded
+2026-05-24 09:41:27 | INFO     | nykaa | [SCREENSHOT] Saved → C:\Nykaa_Selenium_project\NykaaSeleniumProject\screenshots\test_01_homepage_PASSED_20260524_094127.png
+2026-05-24 09:41:27 | INFO     | nykaa | [TEARDOWN] Closing Chrome for: test_01_homepage
